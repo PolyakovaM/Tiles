@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.tile_elem {
+  height: 120px;
+  width: 120px;
+  margin-right: 5px;
+  background-color: grey;
+}
+
+.tiles_wrapper {
+  display: flex;
+  margin-top: 5px;
+}
+
+.tiles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+.timer {
+  text-align: center;
+  margin: 30px;
+  font-size: 20px;
+}
+
+button {
+  text-align: center;
+  margin: 30px auto 0;
+  font-size: 20px;
+  padding: 20px;
+  display: none;
+  background-color: cadetblue;
+  border: none;
+  outline: none;
+}
